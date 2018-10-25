@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BitUN</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script src="./js/utils.js"></script>
+</head>
+<body>
+<script>
+    /**
+     * 语言类型
+     * cn 简体中文
+     * tw 繁体中文
+     * en 英语
+     */
+    (function () {
+        var _language = getQueryString('language') || getBrowerLang();
+        window.location.replace('./pages/' + _language + '/index.html');
+    })()
+</script>
+</body>
+</html>
