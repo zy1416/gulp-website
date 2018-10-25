@@ -1,0 +1,8 @@
+.ivu-btn-long {
+  width: 100%;
+  background: url("../img/xx@3x.png");
+}
+.ivu-btn > .ivu-icon + span,
+.ivu-btn > span + .ivu-icon {
+  margin-left: 4px;
+}
